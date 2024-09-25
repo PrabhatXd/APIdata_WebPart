@@ -1,0 +1,56 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.helloWorld {
+  text-align: center;
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  .holder {
+    text-align: center;
+    font-family: $ms-font-family-fallbacks;
+    background: #915eb8;
+    margin: 0 0 10px;
+    padding: 10px 15px;
+
+  }
+
+  h2 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    i {
+      margin: 0 10px 0 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: "[theme:themePrimary,default:#0078d7]";
+  }
+
+
+}
+
+.HeadTitle {
+  background-color: #de25e9; // Box color 
+  color: 'white'; // Text color
+  padding: 20px; // Space inside the box
+  width: '300px'; // Box width
+  text-align: 'center'; // Center the text
+  border-radius: '5px'; // Optional: add rounded corners
+}
